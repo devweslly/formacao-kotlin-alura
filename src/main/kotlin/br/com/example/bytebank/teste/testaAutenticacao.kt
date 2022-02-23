@@ -1,3 +1,10 @@
+package br.com.example.bytebank.teste
+
+import br.com.example.bytebank.modelo.Cliente
+import br.com.example.bytebank.modelo.Diretor
+import br.com.example.bytebank.modelo.Gerente
+import br.com.example.bytebank.modelo.SistemaInterno
+
 fun testaAutenticacao() {
     val gerente = Gerente(
         nome = "Alex",

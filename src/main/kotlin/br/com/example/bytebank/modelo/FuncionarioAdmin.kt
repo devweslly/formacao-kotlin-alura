@@ -1,3 +1,8 @@
+package br.com.example.bytebank.modelo
+
+import br.com.example.bytebank.modelo.Autenticavel
+import br.com.example.bytebank.modelo.Funcionario
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,

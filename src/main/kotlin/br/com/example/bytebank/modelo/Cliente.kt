@@ -1,3 +1,7 @@
+package br.com.example.bytebank.modelo
+
+import br.com.example.bytebank.modelo.Autenticavel
+
 class Cliente(
     val nome: String,
     val cpf: String,

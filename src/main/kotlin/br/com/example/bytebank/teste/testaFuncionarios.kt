@@ -1,3 +1,10 @@
+package br.com.example.bytebank.teste
+
+import br.com.example.bytebank.modelo.Analista
+import br.com.example.bytebank.modelo.CalculadoraBonificacao
+import br.com.example.bytebank.modelo.Diretor
+import br.com.example.bytebank.modelo.Gerente
+
 fun testaFuncionarios() {
     println("-------------------------")
 

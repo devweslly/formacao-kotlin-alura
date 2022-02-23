@@ -1,3 +1,7 @@
+package br.com.example.bytebank.modelo
+
+import br.com.example.bytebank.modelo.Funcionario
+
 class CalculadoraBonificacao {
 
     var total: Double = 0.0

@@ -1,3 +1,7 @@
+package br.com.example.bytebank.modelo
+
+import br.com.example.bytebank.modelo.FuncionarioAdmin
+
 class Gerente(
     nome: String,
     cpf: String,
