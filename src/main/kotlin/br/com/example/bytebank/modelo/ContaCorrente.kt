@@ -3,7 +3,7 @@ package br.com.example.bytebank.modelo
 import br.com.example.bytebank.modelo.Conta
 
 class ContaCorrente(
-    titular: String,
+    titular: Cliente,
     numero: Int
 ) : Conta(
     titular = titular,

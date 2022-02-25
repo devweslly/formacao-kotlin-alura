@@ -3,8 +3,9 @@ package br.com.example.bytebank.modelo
 import br.com.example.bytebank.modelo.Autenticavel
 
 class Cliente(
-    val nome: String,
+    var nome: String,
     val cpf: String,
+    var endereco: Endereco = Endereco(),
     private val senha: Int
 ) : Autenticavel {
 

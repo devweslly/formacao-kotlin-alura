@@ -1,16 +1,33 @@
 package br.com.example.bytebank.teste
 
+import br.com.example.bytebank.modelo.Cliente
 import br.com.example.bytebank.modelo.ContaCorrente
 import br.com.example.bytebank.modelo.ContaPoupanca
+import br.com.example.bytebank.modelo.Endereco
 
 fun testaContasDiferentes() {
     val contaCorrente = ContaCorrente(
-        titular = "Alex",
+        titular = Cliente(
+            nome = "Alex",
+            cpf = "111.111.111-11",
+            senha = 1,
+            endereco = Endereco(logradouro = "Rua dos motoristas")
+        ),
         numero = 1000
     )
 
+    println("________________________________")
+    println("Titular")
+    println("Nome: ${contaCorrente.titular.nome}")
+    println("CPF: ${contaCorrente.titular.cpf}")
+    println("Endereço: ${contaCorrente.titular.endereco.logradouro}")
+
     val contaPoupanca = ContaPoupanca(
-        titular = "Fran",
+        titular = Cliente(
+            nome = "Fran",
+            cpf = "",
+            senha = 2
+        ),
         numero = 1001
     )
 
